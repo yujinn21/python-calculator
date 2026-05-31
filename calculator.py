@@ -1,8 +1,5 @@
-print("Simple Calculator")
+def add(a, b):
+    return a + b
 
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-
-result = num1 + num2
-
-print("Result:", result)
+def subtract(a, b):
+    return a - b
